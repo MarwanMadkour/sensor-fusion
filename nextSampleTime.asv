@@ -1,0 +1,30 @@
+function [time,sensor_id] = nextSampleTime(p,k,last_sample_time)
+
+time=0;
+for i=1:numel(p.sensor)
+    if last_sample_time(i) + p.sensor(i).sampling_time <time
+        time = 
+    end
+
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+end
